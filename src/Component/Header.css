@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 }
 .header__logo {
   height: 25px;
@@ -14,6 +18,9 @@
   align-items: center;
   width: 40%;
   border: 1px solid lightgray;
+}
+.header__input > input:focus {
+  outline-width: 0;
 }
 .header__right {
   display: flex;
@@ -31,5 +38,4 @@
 }
 .header__rightIcon {
   margin-right: 8px;
-  color: lightgray;
 }
